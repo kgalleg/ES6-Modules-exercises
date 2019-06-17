@@ -5,9 +5,10 @@
 // 5) execute both function in main.js
 
 
-let subractVariable = 10;
+let subractVariable = 10
+
 function subtractNumber(number) {
-    console.log(subractVariable - number)
+    return subractVariable - number
 }
 
 export {subtractNumber}

@@ -4,8 +4,8 @@
 // 4) Import both modules into main.js
 // 5) execute both function in main.js
 
-import{addingNumber} from "./add.js"
-import{subtractNumber} from "./subtract.js"
+import{ addingNumber } from "./add.js"
+import{ subtractNumber } from "./subtract.js"
 
-addingNumber(2);
-subtractNumber(3);
+console.log (addingNumber(2))
+console.log(subtractNumber(3))

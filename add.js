@@ -4,9 +4,10 @@
 // 4) Import both modules into main.js
 // 5) execute both function in main.js
 
-let addVariable = 10;
+let addVariable = 10 //this is our private variable 
+
 function addingNumber(number) {
-    console.log(addVariable + number)
+    return addVariable + number
 }
 
 export {addingNumber}
