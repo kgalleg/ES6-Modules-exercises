@@ -9,3 +9,4 @@ import{ subtractNumber } from "./subtract.js"
 
 console.log (addingNumber(2))
 console.log(subtractNumber(3))
+
